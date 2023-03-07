@@ -1,0 +1,38 @@
+/* Header styles */
+.header {
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    background-color: #2C3333;
+    padding: 1rem;
+  }
+  
+  /* Logo styles */
+  .header__logo h1 {
+    font-size: 1rem;
+    color: #faf9f9;
+    margin: 0;
+  }
+  
+  /* Nav styles */
+  .header__nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header__nav li {
+    margin: 0 1rem;
+  }
+  
+  .header__nav a {
+    text-decoration: none;
+    color: #faf9f9;
+  }
+  
+  /* Hover effect */
+  .header__nav a:hover {
+    color: #b8ca13;
+  }
